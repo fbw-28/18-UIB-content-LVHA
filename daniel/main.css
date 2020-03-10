@@ -21,8 +21,40 @@ button {
 
 /* Task 1 */
 
+a:link {
+  color: #FF0000;
+}
+
+a:visited {
+  color: #00FF00;
+}
+
+a:hover {
+  color: #FF00FF;
+}
+
+a:active {
+  color: #0000FF;
+} 
+
 /* Task 2 */
+
+button#button:active {
+  background-color: red;
+}
+
+button:hover {
+  background-color: blue;
+}
 
 /* Task 3 */
 
+p::first-letter {
+  color: red;
+}
+
 /* Task 4 */
+
+h2 + p::first-line {
+  color: blue;
+}
