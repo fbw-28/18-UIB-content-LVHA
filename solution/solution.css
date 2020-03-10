@@ -1,0 +1,53 @@
+header {
+    text-align: center;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  li, p {
+    font-size: 20px;
+  }
+  
+  button {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid black;
+    color: black;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-size: 16px;
+  }
+  .links:hover {
+     color: rgb(208, 226, 43);
+  }
+  .links:active {
+      color: brown;
+  }
+  .links:visited {
+      color: darkcyan;
+  }
+  .links:link {
+    font-weight: bold;
+  }
+  button:hover {
+      background-color: darkred;
+  }
+  button:active {
+      background-color: darkviolet;
+  }
+  p::first-letter {
+    
+    color: #8A2BE2;
+  }
+  h2+ p::first-line {
+      color: gold;
+  }
+
+
+  /* Task 1 */
+  
+  /* Task 2 */
+  
+  /* Task 3 */
+  
+  /* Task 4 */
