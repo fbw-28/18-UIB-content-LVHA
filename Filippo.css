@@ -1,0 +1,31 @@
+header {
+    text-align: center;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  li, p {
+    font-size: 20px;
+  }
+  
+  button {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid black;
+    color: black;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-size: 16px;
+  }
+  
+  
+  a:link{color:red}
+  a:visited{color:red}
+  a:hover{color:blue}
+  a:active{background-color:yellow}
+ button:hover{color:red}
+ button:active{background-color:yellow}
+  
+ span {color:green}
+  
+ div {color: yellow;}
