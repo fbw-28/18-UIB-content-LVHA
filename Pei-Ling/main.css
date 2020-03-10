@@ -1,0 +1,56 @@
+header {
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+li, p {
+  font-size: 20px;
+}
+
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid black;
+  color: black;
+  font-family: 'PT Sans Narrow',sans-serif;
+  font-size: 16px;
+}
+
+
+/* Task 1 */
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: deeppink;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+/* Task 2 */
+/* mouse over button */
+button:hover {
+  color: deeppink;
+}
+
+/* selected button */
+button:active {
+  color: yellow;
+}
+
+/* Task 3 */
+
+/* Task 4 */
