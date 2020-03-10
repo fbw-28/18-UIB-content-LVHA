@@ -1,0 +1,56 @@
+header {
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+li, p {
+  font-size: 20px;
+}
+
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid black;
+  color: black;
+  font-family: 'PT Sans Narrow',sans-serif;
+  font-size: 16px;
+}
+
+button:hover{
+  background-color: chartreuse;
+  text-transform:lowercase;
+  
+}
+
+button:active{
+  text-decoration: crimson;
+  border: dashed;
+}
+
+.marmota:hover{
+  color:greenyellow;
+  text-transform: uppercase;
+}
+.marmota:active{
+  color: red;
+}
+
+p::first-letter {
+  font-size: 45px;
+  color: rgba(218, 33, 132, 0.952);
+}
+
+h2:first-of-type {
+  text-decoration: underline rosybrown;
+}
+
+
+/* Task 1 */
+
+/* Task 2 */
+
+/* Task 3 */
+
+/* Task 4 */
