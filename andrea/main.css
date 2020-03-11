@@ -22,9 +22,16 @@ button {
 /* Task 1 */
 
 a:hover {
-  color:turquoise;  
+  color:green;  
 }
 
+a:visited {
+  color:turquoise;
+}
+
+a:active {
+  color:red;
+}
 /* Task 2 */
 button:hover {
   font-style: bold;
