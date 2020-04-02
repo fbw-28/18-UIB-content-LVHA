@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+header {
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+li,
+p {
+  font-size: 20px;
+}
+
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid black;
+  color: black;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  transition: 0.4s ease-out;
+  text-decoration: none;
+}
+
+
+/* Task 1 */
+a:visited {
+  color: red;
+}
+
+a:hover {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+a:active {
+  border-bottom: 2px solid green;
+}
+
+/* Task 2 */
+button {
+  width: 140px;
+  height: 40px;
+  background-color: #0000ff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  background-color: #0000ff7e;
+  color: #222;
+}
+
+button:active {
+  border: 3px dotted;
+}
+
+/* Task 3 */
+span {
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: green;
+}
+
+/* Task 4 */
+h2+p {
+  color: blue;
+}
