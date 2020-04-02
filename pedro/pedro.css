@@ -1,0 +1,40 @@
+header {
+    text-align: center;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  li, p {
+    font-size: 20px;
+  }
+  
+  button {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid black;
+    color: black;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-size: 16px;
+  }
+  a:active {
+    color: rgb(223, 14, 46);
+  }
+  
+  em {
+    font-style: normal;
+    color: brown;
+  }
+  
+  #one {
+    color: darkgreen;
+  }
+  
+  
+  /* Task 1 */
+  
+  /* Task 2 */
+  
+  /* Task 3 */
+  
+  /* Task 4 */
