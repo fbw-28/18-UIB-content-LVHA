@@ -1,0 +1,46 @@
+header {
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+li, p {
+  font-size: 20px;
+}
+
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid black;
+  color: black;
+  font-family: 'PT Sans Narrow',sans-serif;
+  font-size: 16px;
+}
+
+
+/* Task 1 */
+a:hover {
+  color: green;
+}
+a:active {
+  color: aqua;
+}
+a:visited {
+  color: red;
+}
+/* Task 2 */
+button:hover {
+  background-color: purple;
+}
+button:active {
+  color: yellow;
+}
+/* Task 3 */
+p::first-letter {
+  color: red;
+}
+/* Task 4 */
+h2 + p::first-line {
+  color: purple;
+}
