@@ -1,0 +1,71 @@
+body {
+  color: #98e;
+}
+header {
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+li, p {
+  font-size: 20px;
+}
+
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid black;
+  color: black;
+  font-family: 'PT Sans Narrow',sans-serif;
+  font-size: 16px;
+}
+
+
+
+/* Task 1 */
+
+
+a:hover{
+  background-color: blueviolet;
+  color: springgreen;
+}
+
+a:active{
+  color: darkgreen;
+}
+
+a:link {
+  color: crimson;
+}
+
+a:visited{
+  color: aqua; 
+}
+
+/* Task 2 */
+
+button:active {
+  background-color: black;
+  color: blanchedalmond;
+
+}
+
+button:hover {
+  background-color: slateblue;
+  color: red;
+}
+
+/* Task 3 */
+
+
+p::first-letter { 
+  color: blueviolet;
+  font-size: 24px;
+}
+
+/* Task 4 */
+
+p::first-line{ 
+  color:#ccc;
+}
