@@ -1,0 +1,55 @@
+header {
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+li, p {
+  font-size: 20px;
+}
+
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid black;
+  color: black;
+  font-family: 'PT Sans Narrow',sans-serif;
+  font-size: 16px;
+}
+
+
+/* Task 1 */
+
+a:hover {
+  color:green;  
+}
+
+a:visited {
+  color:turquoise;
+}
+
+a:active {
+  color:red;
+}
+/* Task 2 */
+button:hover {
+  font-style: bold;
+  color:red;
+}
+
+button:active {
+  color:blue;
+  border:solid;
+}
+
+/* Task 3 */
+p::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
+}
+
+/* Task 4 */
+h2 + p::first-line {
+  color: orange;
+}
